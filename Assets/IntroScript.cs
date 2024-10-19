@@ -9,7 +9,7 @@ public class IntroScript : MonoBehaviour
     void Update()
     {
         ///to start game///////////
-        if (OVRInput.Get(OVRInput.RawButton.LIndexTrigger) ||
+        /*if (OVRInput.Get(OVRInput.RawButton.LIndexTrigger) ||
             OVRInput.Get(OVRInput.RawButton.RIndexTrigger) ||
             Input.GetKeyDown(KeyCode.B))//the b key is so we can test in unity before building
         {
@@ -17,5 +17,6 @@ public class IntroScript : MonoBehaviour
             SceneManager.LoadScene("Hallway");//go to hallway scene
 
         }//end if trigger
+        */
     }
 }
