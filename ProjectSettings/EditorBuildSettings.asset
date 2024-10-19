@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/MR 1.unity
+    guid: e3daab2ed987cb1428cb2de4f2319456
+  - enabled: 0
+    path: Assets/Scenes/AR 1.unity
+    guid: 24dfbfecc7c5caa41b78d7ef6a254d49
+  - enabled: 0
+    path: Assets/Scenes/MR_Stick_Test.unity
+    guid: bf0bb6703ef7ea54a9525bca6ab5894b
+  - enabled: 1
+    path: Assets/Scenes/MR Generate.unity
+    guid: 673f0cfde81b971468df8a1b4f080fc6
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 43c741dfc171faa48a8e278d2c5b0cde, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0e895e0103cfe9a4ba2e9fd10b1da2e1, type: 2}
