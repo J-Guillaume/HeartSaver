@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/MR_Stick_Test.unity
     guid: bf0bb6703ef7ea54a9525bca6ab5894b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MR Generate.unity
     guid: 673f0cfde81b971468df8a1b4f080fc6
   m_configObjects:
