@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.meta.xr.sdk.core": "68.0.2",
+    "com.meta.xr.sdk.core": "69.0.0",
     "com.meta.xr.simulator": "68.0.0",
     "com.meta.xr.simulator.samples": "66.0.1",
     "com.unity.collab-proxy": "2.4.4",
