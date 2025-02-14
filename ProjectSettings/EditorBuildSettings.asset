@@ -5,11 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/heartsaver.unity
+    guid: 0b5dad0d9cf7cf64db883e83b9a233a7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d5f52ce7c31e7144983492aa850339f6,
+      type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 47e1008fcbc9f4e4dbe89ede507a888e,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3a0a849785979a04c9caba711488533f,
       type: 2}

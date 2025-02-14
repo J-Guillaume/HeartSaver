@@ -1,0 +1,45 @@
+{
+    "name": "CPRInputActions",
+    "maps": [
+        {
+            "name": "CPRControls",
+            "id": "15d9f1e1-7afa-43f5-bc50-54ad17ee8eef",
+            "actions": [
+                {
+                    "name": "PumpAction",
+                    "type": "Button",
+                    "id": "401d07c5-15f4-440b-a267-1936ff2511c0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "15ee2d78-a873-490a-bbd7-77c641e32d01",
+                    "path": "<Keyboard>/anyKey",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PumpAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e5de4edb-4498-4cf6-a34f-59337c3cf186",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PumpAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
