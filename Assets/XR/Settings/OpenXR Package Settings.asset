@@ -331,27 +331,27 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: 
   features:
-  - {fileID: -1041392712123987772}
-  - {fileID: 6140056857225242195}
-  - {fileID: 8369729523225452363}
-  - {fileID: 550477617506017955}
-  - {fileID: -8899094695475435495}
-  - {fileID: -7185640745752087679}
-  - {fileID: 8687534596160590988}
+  - {fileID: -4164987529038967731}
+  - {fileID: -9078956203990231565}
+  - {fileID: -4305975538516555818}
+  - {fileID: -9204378443669075067}
+  - {fileID: 1453844688974389245}
+  - {fileID: -2713177091290590037}
   - {fileID: 8654573891288807873}
+  - {fileID: 4101569683717296882}
   - {fileID: 8987719559633203582}
+  - {fileID: 8369729523225452363}
+  - {fileID: -1041392712123987772}
+  - {fileID: 550477617506017955}
+  - {fileID: 6140056857225242195}
+  - {fileID: -8899094695475435495}
+  - {fileID: -285393017328344685}
+  - {fileID: -7028028307310914170}
+  - {fileID: 8687534596160590988}
   - {fileID: -2598073859065648770}
   - {fileID: 3078693785478807313}
+  - {fileID: -7185640745752087679}
   - {fileID: 486478366829393522}
-  - {fileID: -4305975538516555818}
-  - {fileID: -9078956203990231565}
-  - {fileID: -9204378443669075067}
-  - {fileID: -285393017328344685}
-  - {fileID: 1453844688974389245}
-  - {fileID: 4101569683717296882}
-  - {fileID: -2713177091290590037}
-  - {fileID: -7028028307310914170}
-  - {fileID: -4164987529038967731}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
@@ -467,28 +467,28 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
-  - {fileID: -2632905948359606078}
+  - {fileID: -447918839800265311}
+  - {fileID: 553146684399695372}
+  - {fileID: -8669568678278950004}
+  - {fileID: 3219063360738630053}
+  - {fileID: 4722546938699816465}
+  - {fileID: 4451138302349284390}
+  - {fileID: -7757859056826197854}
+  - {fileID: -1639474228327642622}
+  - {fileID: -4721202750333679892}
+  - {fileID: 7895028296777613329}
   - {fileID: -2128502510647863324}
+  - {fileID: -2632905948359606078}
   - {fileID: 2046270073541604660}
   - {fileID: 5612600950261937133}
-  - {fileID: -7130359383544038736}
-  - {fileID: 7895028296777613329}
-  - {fileID: -4797632233511583408}
-  - {fileID: 5727162032104778856}
-  - {fileID: -518256593991598141}
-  - {fileID: -8669568678278950004}
-  - {fileID: -7757859056826197854}
-  - {fileID: 4451138302349284390}
-  - {fileID: 553146684399695372}
-  - {fileID: 3114468343799342541}
-  - {fileID: 3219063360738630053}
   - {fileID: 4944052692949889445}
   - {fileID: 3973239873022043478}
-  - {fileID: 4722546938699816465}
-  - {fileID: -4721202750333679892}
-  - {fileID: -1639474228327642622}
   - {fileID: 2421212491013491466}
-  - {fileID: -447918839800265311}
+  - {fileID: -4797632233511583408}
+  - {fileID: 5727162032104778856}
+  - {fileID: -7130359383544038736}
+  - {fileID: 3114468343799342541}
+  - {fileID: -518256593991598141}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
@@ -528,7 +528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1927c045052a06d49a9b21fdcaa26db6, type: 3}
   m_Name: MetaXRFeature Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta XR Feature
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.metaxr
@@ -653,7 +653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1927c045052a06d49a9b21fdcaa26db6, type: 3}
   m_Name: MetaXRFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta XR Feature
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.metaxr
@@ -717,7 +717,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5a1f07dc5afe854f9f12a4194aca3fb, type: 3}
   m_Name: VisionOS
   m_EditorClassIdentifier: 
-  features: []
+  features:
+  - {fileID: -536901993447308523}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
@@ -758,11 +759,11 @@ MonoBehaviour:
   m_Name: XrPerformanceSettingsFeature VisionOS
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: XR Performance Settings
+  version: 1.0.0
+  featureIdInternal: com.unity.openxr.feature.extension.performance_settings
+  openxrExtensionStrings: XR_EXT_performance_settings
+  company: Unity
   priority: 0
   required: 0
 --- !u!114 &-518256593991598141
@@ -935,7 +936,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d28f705476c80d47acb3dfade3d3142, type: 3}
   m_Name: MetaXRFoveationFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta XR Foveation
   version: 1.0.0
   featureIdInternal: com.meta.openxr.feature.foveation
@@ -1089,7 +1090,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d28f705476c80d47acb3dfade3d3142, type: 3}
   m_Name: MetaXRFoveationFeature Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta XR Foveation
   version: 1.0.0
   featureIdInternal: com.meta.openxr.feature.foveation
